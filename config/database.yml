@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: testing_app_production
+  adapter: mysql2
   username: testing_app
-  password: <%= ENV['TESTING_APP_DATABASE_PASSWORD'] %>
+  password: 12345678
