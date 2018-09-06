@@ -13,6 +13,7 @@ gem 'mysql2', '>= 0.3.18', '< 0.6.0'
 gem 'capistrano'
 gem 'capistrano-rails'
 gem 'capistrano-bundler'
+gem 'capistrano-rvm'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets

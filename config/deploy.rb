@@ -2,13 +2,15 @@
 lock "~> 3.11.0"
 
 set :application, "testing_app"
-set :repo_url, "git@example.com:me/my_repo.git"
-
+set :repo_url, "https://github.com/Vamsi-StockViews/TestingApp.git"
+set :deploy_to, "/var/www/testing_app"
+set :use_sudo, true
+set :branch, 'master'
+set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-# set :deploy_to, "/var/www/my_app_name"
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
