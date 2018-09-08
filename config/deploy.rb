@@ -5,6 +5,7 @@ set :application, "testing_app"
 set :repo_url, "https://github.com/Vamsi-StockViews/TestingApp.git"
 set :deploy_to, "/var/www/testing_app"
 set :use_sudo, true
+set :rvm_type, :vamsi
 set :branch, 'master'
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
 # Default branch is :master
