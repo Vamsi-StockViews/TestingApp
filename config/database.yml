@@ -52,5 +52,4 @@ production:
   database: testing_app_production
   adapter: mysql2
   username: root
-  host: localhost
-  password: '12345678'
+  password: 
