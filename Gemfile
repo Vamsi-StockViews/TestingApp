@@ -14,6 +14,8 @@ gem 'mysql2', '>= 0.3.18', '< 0.6.0'
 gem 'capistrano'
 gem 'capistrano-rails'
 gem 'capistrano-bundler'
+gem 'capistrano-passenger', '>= 0.1.1'
+
 gem 'capistrano-rvm'
 # Use Puma as the app server
 # gem 'puma', '~> 3.7'
