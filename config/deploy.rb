@@ -8,6 +8,7 @@ set :use_sudo, true
 set :branch, 'master'
 set :passenger_environment_variables, { :path => '/path-to-passenger/bin:$PATH' }
 set :passenger_restart_command, '/path-to-passenger/bin/passenger-config restart-app'
+set :passenger_restart_with_touch, true
 
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
 # Default branch is :master
