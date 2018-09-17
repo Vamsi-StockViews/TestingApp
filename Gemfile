@@ -10,12 +10,13 @@ end
 gem 'rails', '~> 5.1.6'
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.3.18', '< 0.6.0'
+gem 'net-ssh'
 # gem "passenger", ">= 5.0.25", require: "phusion_passenger/rack_handler"
 gem 'capistrano'
 gem 'capistrano-rails'
 gem 'capistrano-bundler'
 gem 'pry'
-gem 'net-ssh'
+
 gem 'capistrano-passenger', '>= 0.1.1'
 gem 'listen', '>= 3.0.5', '< 3.2'
 
