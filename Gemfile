@@ -14,6 +14,7 @@ gem 'mysql2', '>= 0.3.18', '< 0.6.0'
 gem 'capistrano'
 gem 'capistrano-rails'
 gem 'capistrano-bundler'
+gem 'pry'
 gem 'capistrano-passenger', '>= 0.1.1'
 gem 'listen', '>= 3.0.5', '< 3.2'
 

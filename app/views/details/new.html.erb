@@ -1,0 +1,6 @@
+<%=form_tag("/details",method: "post", remote: true )do %>
+
+    <p>Name: <%= text_field_tag :name%></p>
+    <p>email: <%= text_field_tag :email%></p>
+    <%=submit_tag "Submit"%>
+<%end%>
