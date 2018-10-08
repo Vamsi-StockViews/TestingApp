@@ -52,4 +52,4 @@ production:
   database: testing_app_production
   adapter: mysql2
   username: root
-  password: 
+  password: my_password
