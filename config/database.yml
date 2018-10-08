@@ -50,6 +50,8 @@ test:
 production:
   <<: *default
   database: testing_app_production
+  url: <%= ENV["DATABASE_URL"] %>
   adapter: mysql2
   username: root
+  host: localhost
   password: my_password
