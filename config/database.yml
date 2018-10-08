@@ -55,3 +55,4 @@ production:
   username: root
   host: localhost
   password: my_password
+  socket: /var/run/mysqld/mysqld.sock
