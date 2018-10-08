@@ -5,7 +5,7 @@ set :application, "testing_app"
 set :repo_url, "https://github.com/Vamsi-StockViews/TestingApp.git"
 set :deploy_to, "/var/www/testing_app"
 set :use_sudo, true
-set :branch, 'temp_branch'
+set :branch, 'temp_branch_2'
 set :passenger_environment_variables, { :path => '/path-to-passenger/bin:$PATH' }
 set :passenger_restart_command, '/path-to-passenger/bin/passenger-config restart-app'
 set :passenger_restart_with_touch, true
